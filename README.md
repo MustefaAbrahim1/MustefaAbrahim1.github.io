@@ -5,7 +5,7 @@ Welcome to my GitHub portfolio! I am a Data Scientist and AI Engineer with exper
 ---
 
 ## 🛠️ Projects
-
+ 
 ### 1. Stock Market Data Analysis Using ML Algorithms  
 **Duration:** Feb 2022 - May 2023  
 - Implemented advanced ML algorithms like Random Forest and SVM to analyze stock market data for predictive insights.  
