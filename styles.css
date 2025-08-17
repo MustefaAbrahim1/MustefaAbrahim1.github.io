@@ -121,13 +121,13 @@ section[id] {
 /* Responsive layout */
 @media (max-width: 768px) {
   .sidebar {
-    position: relative !important;
+    position: absolute;
     width: 100%;
     height: auto;
   }
   .sidebar .profile-img {
-    width: 100%;
-    height: auto;
+    width: 50%;
+    height: 50%;
   }
   .main {
     margin-left: 0;
