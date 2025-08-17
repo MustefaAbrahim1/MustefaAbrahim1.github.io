@@ -126,8 +126,8 @@ section[id] {
     height: auto;
   }
   .sidebar .profile-img {
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 30%;
   }
   .main {
     margin-left: 0;
