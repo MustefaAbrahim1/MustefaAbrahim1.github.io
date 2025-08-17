@@ -129,6 +129,21 @@ section[id] {
     width: 40px;
     height: 30px;
   }
+  .sidebar h1 {
+    font-size: 20px;
+  }
+  .sidebar .title {
+    font-size: 16px;
+  }
+  .sidebar .location {
+    font-size: 14px;
+  }
+  .sidebar p {
+    font-size: 12px;
+  }
+  .sidebar .social-links li {
+    margin-right: 5px;
+  }
   .main {
     margin-left: 0;
   }
