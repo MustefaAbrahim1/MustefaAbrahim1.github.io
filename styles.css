@@ -13,9 +13,33 @@ a {
 a:hover {
   text-decoration: underline;
 }
+/* -------------------- */
+/* Profile photo sizing */
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;   /* circular */
+  margin: 20px auto;
+  display: block;
+}
 
+/* Sidebar contact info */
+.sidebar p, 
+.sidebar a {
+  display: block;      /* ensures one per line */
+  margin: 8px 0;
+  font-size: 14px;
+  text-decoration: none;
+  color: #333;
+}
+
+.sidebar a:hover {
+  color: #0073e6;
+}
+/* -------------------- */
 /* Sidebar */
-.sidebar {
+/* .sidebar {
   background-color: #f6f8fa;
   padding: 20px;
   position: fixed;
@@ -59,7 +83,7 @@ a:hover {
 .sidebar .social-links li a {
   color: #0366d6;
   font-weight: bold;
-}
+} */
 
 /* Main content */
 .main {
