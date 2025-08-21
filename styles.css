@@ -38,6 +38,14 @@ a:hover {
   color: #0073e6;
 }
 /* -------------------- */
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;   /* circular */
+  margin: 20px auto;
+  display: block;
+}
 /* Sidebar */
 .sidebar {
   background-color: #f6f8fa;
@@ -49,11 +57,11 @@ a:hover {
   height: 100%;
   overflow-y: auto;
 }
-.sidebar .profile-img {
+/* .sidebar .profile-img {
   width: 100%;
   border-radius: 50%;
   margin-bottom: 10px;
-}
+} */
 .sidebar h1 {
   font-size: 24px;
   margin: 10px 0 5px;
@@ -67,10 +75,10 @@ a:hover {
   color: #666;
   margin: 0 0 10px;
 }
-.sidebar p {
+/* .sidebar p {
   color: #666;
   margin: 5px 0;
-}
+} */
 .sidebar .social-links {
   list-style: none;
   padding: 0;
