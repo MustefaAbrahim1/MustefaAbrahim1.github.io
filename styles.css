@@ -127,13 +127,22 @@ ul {
   margin: 10px 0 10px 20px;
   padding: 0;
 }
-footer {
+.footer {
+  background-color: #000;   /* black background */
+  color: #fff;              /* white text */
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+/* footer {
   text-align: center;
   padding: 20px 0;
   color: #666;
   border-top: 1px solid #ddd;
   margin-top: 40px;
-}
+} */
 
 /* Smooth scrolling */
 html {
